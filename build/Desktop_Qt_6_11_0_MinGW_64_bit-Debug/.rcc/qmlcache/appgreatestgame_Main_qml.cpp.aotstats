@@ -39,18 +39,34 @@
                         },
                         {
                             "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "starLevels",
+                            "line": 17,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "selectedStarId",
-                            "line": 27,
+                            "line": 59,
                             "message": "Cannot load property length from (component in C:/Users/himeno/Documents/greatestgame/Main.qml)::starObjects with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "onTriggered",
+                            "line": 33,
+                            "message": "Cannot access value for name starObjects"
                         },
                         {
                             "codegenResult": 2,
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 37,
+                            "line": 69,
                             "message": "Cannot find name selectedStar"
                         },
                         {
@@ -58,7 +74,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 36,
+                            "line": 68,
                             "message": ""
                         },
                         {
@@ -66,55 +82,15 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "top",
-                            "line": 46,
+                            "line": 78,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 60,
+                            "column": 23,
                             "durationMicroseconds": 0,
-                            "functionName": "horizontalCenter",
-                            "line": 46,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 48,
-                            "message": "Cannot access value for name globalA"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 50,
-                            "message": "Cannot access value for name globalB"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 16,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 58,
-                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 22,
-                            "durationMicroseconds": 0,
-                            "functionName": "top",
-                            "line": 54,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "right",
-                            "line": 55,
+                            "functionName": "left",
+                            "line": 79,
                             "message": ""
                         },
                         {
@@ -122,7 +98,103 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 65,
+                            "line": 85,
+                            "message": "Cannot access value for name globalScore"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 93,
+                            "message": "Cannot access value for name parent"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 94,
+                            "message": "Cannot access value for name parent"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 100,
+                            "message": "Cannot access value for name globalInfectionRate"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 102,
+                            "message": "Cannot access value for name globalInfectionRate"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "top",
+                            "line": 110,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalCenter",
+                            "line": 110,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 112,
+                            "message": "Cannot access value for name globalA"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 114,
+                            "message": "Cannot access value for name globalB"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 123,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "top",
+                            "line": 119,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "right",
+                            "line": 120,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 130,
                             "message": "Cannot access value for name currentTurn"
                         },
                         {
@@ -130,7 +202,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 69,
+                            "line": 134,
                             "message": ""
                         },
                         {
@@ -138,7 +210,7 @@
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 74,
+                            "line": 139,
                             "message": "Cannot access value for name isAiming"
                         },
                         {
@@ -146,7 +218,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalCenter",
-                            "line": 77,
+                            "line": 142,
                             "message": ""
                         },
                         {
@@ -154,7 +226,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 84,
+                            "line": 148,
                             "message": ""
                         },
                         {
@@ -162,7 +234,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 88,
+                            "line": 152,
                             "message": "Cannot access value for name globalTradeLinks"
                         },
                         {
@@ -170,7 +242,7 @@
                             "column": 41,
                             "durationMicroseconds": 0,
                             "functionName": "fromIndex",
-                            "line": 90,
+                            "line": 154,
                             "message": "Cannot access value for name modelData"
                         },
                         {
@@ -178,7 +250,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "toIndex",
-                            "line": 91,
+                            "line": 155,
                             "message": "Cannot access value for name modelData"
                         },
                         {
@@ -186,7 +258,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "vSource",
-                            "line": 92,
+                            "line": 156,
                             "message": "Cannot access value for name visualStarItems"
                         },
                         {
@@ -194,7 +266,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "vTarget",
-                            "line": 93,
+                            "line": 157,
                             "message": "Cannot access value for name visualStarItems"
                         },
                         {
@@ -202,7 +274,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "startX",
-                            "line": 95,
+                            "line": 159,
                             "message": "Cannot load property x from (component in C:/Users/himeno/Documents/greatestgame/Main.qml)::vSource with type QVariant."
                         },
                         {
@@ -210,7 +282,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "startY",
-                            "line": 96,
+                            "line": 160,
                             "message": "Cannot load property y from (component in C:/Users/himeno/Documents/greatestgame/Main.qml)::vSource with type QVariant."
                         },
                         {
@@ -218,7 +290,7 @@
                             "column": 37,
                             "durationMicroseconds": 0,
                             "functionName": "endX",
-                            "line": 97,
+                            "line": 161,
                             "message": "Cannot load property x from (component in C:/Users/himeno/Documents/greatestgame/Main.qml)::vTarget with type QVariant."
                         },
                         {
@@ -226,7 +298,7 @@
                             "column": 37,
                             "durationMicroseconds": 0,
                             "functionName": "endY",
-                            "line": 98,
+                            "line": 162,
                             "message": "Cannot load property y from (component in C:/Users/himeno/Documents/greatestgame/Main.qml)::vTarget with type QVariant."
                         },
                         {
@@ -234,7 +306,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 100,
+                            "line": 164,
                             "message": ""
                         },
                         {
@@ -242,7 +314,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 100,
+                            "line": 164,
                             "message": ""
                         },
                         {
@@ -250,7 +322,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 101,
+                            "line": 165,
                             "message": ""
                         },
                         {
@@ -258,7 +330,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 102,
+                            "line": 166,
                             "message": "Cannot access value for name selectedLineIndex"
                         },
                         {
@@ -266,7 +338,7 @@
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "transformOrigin",
-                            "line": 103,
+                            "line": 167,
                             "message": ""
                         },
                         {
@@ -274,7 +346,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "rotation",
-                            "line": 104,
+                            "line": 168,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
                         },
                         {
@@ -282,7 +354,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 106,
+                            "line": 170,
                             "message": "Cannot load property baseColor from (component in C:/Users/himeno/Documents/greatestgame/Main.qml)::vSource with type QVariant."
                         },
                         {
@@ -290,7 +362,7 @@
                             "column": 72,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 111,
+                            "line": 175,
                             "message": ""
                         },
                         {
@@ -298,7 +370,7 @@
                             "column": 88,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 114,
+                            "line": 178,
                             "message": ""
                         },
                         {
@@ -306,7 +378,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "loops",
-                            "line": 116,
+                            "line": 180,
                             "message": ""
                         },
                         {
@@ -314,7 +386,7 @@
                             "column": 77,
                             "durationMicroseconds": 0,
                             "functionName": "type",
-                            "line": 117,
+                            "line": 181,
                             "message": ""
                         },
                         {
@@ -322,15 +394,15 @@
                             "column": 77,
                             "durationMicroseconds": 0,
                             "functionName": "type",
-                            "line": 118,
+                            "line": 182,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 13000,
+                            "durationMicroseconds": 14000,
                             "functionName": "onCompleted",
-                            "line": 123,
+                            "line": 187,
                             "message": "Cannot load property total from conversion to QVariant."
                         },
                         {
@@ -338,7 +410,7 @@
                             "column": 12,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 235,
+                            "line": 309,
                             "message": "Cannot access value for name selectedStar"
                         },
                         {
@@ -346,7 +418,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 236,
+                            "line": 310,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
                         },
                         {
@@ -354,183 +426,263 @@
                             "column": 71,
                             "durationMicroseconds": 0,
                             "functionName": "type",
-                            "line": 237,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 240,
+                            "line": 311,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 26,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 315,
+                            "message": "Could not find property \"fill\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "policy",
+                            "line": 320,
+                            "message": "Could not find property \"policy\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "policy",
+                            "line": 321,
+                            "message": "Could not find property \"policy\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 241,
+                            "line": 327,
                             "message": "Cannot access value for name selectedStarName"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 32,
+                            "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 242,
+                            "line": 328,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 26,
+                            "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 243,
+                            "line": 329,
                             "message": "Cannot access value for name selectedStar"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 92,
+                            "column": 96,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 243,
+                            "line": 329,
                             "message": "Cannot access value for name selectedStar"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 26,
+                            "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 244,
+                            "line": 330,
                             "message": "Cannot access value for name selectedStar"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 26,
+                            "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 246,
+                            "line": 331,
                             "message": "Cannot access value for name selectedStar"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 26,
+                            "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 247,
+                            "line": 332,
                             "message": "Cannot access value for name selectedStar"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 26,
+                            "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 248,
+                            "line": 333,
                             "message": "Cannot access value for name selectedStar"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 32,
+                            "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 251,
+                            "line": 336,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 255,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
                             "column": 28,
                             "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 340,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 259,
+                            "line": 344,
                             "message": "Cannot access value for name globalTradeLinks"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 34,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 346,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 262,
+                            "line": 347,
                             "message": "Could not find property \"visible\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 33,
+                            "column": 37,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 263,
+                            "line": 348,
                             "message": "Could not find property \"height\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 31,
+                            "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 264,
+                            "line": 349,
                             "message": "Could not find property \"text\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 36,
+                            "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 265,
+                            "line": 350,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 36,
+                            "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 267,
+                            "line": 352,
                             "message": "Cannot access value for name selectedLineIndex"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 28,
+                            "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 275,
+                            "line": 360,
                             "message": "Cannot access value for name severedTradeLinks"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 34,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 362,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 278,
+                            "line": 363,
                             "message": "Could not find property \"visible\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 33,
+                            "column": 37,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 279,
+                            "line": 364,
                             "message": "Could not find property \"height\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 31,
+                            "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 280,
+                            "line": 365,
                             "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 367,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 373,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 397,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 398,
+                            "message": "Cannot access value for name globalA"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 401,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 61,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 403,
+                            "message": "Could not find property \"width\"."
                         },
                         {
                             "codegenResult": 2,
                             "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "enabled",
-                            "line": 282,
+                            "line": 404,
                             "message": "Could not find property \"enabled\"."
                         },
                         {
@@ -538,159 +690,167 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 288,
+                            "line": 405,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 61,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 408,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 409,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 410,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 0,
-                            "column": 32,
+                            "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 310,
+                            "line": 414,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 311,
-                            "message": "Cannot access value for name globalA"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 24,
+                            "column": 60,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 314,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 57,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 316,
+                            "line": 416,
                             "message": "Could not find property \"width\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 30,
+                            "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "enabled",
-                            "line": 317,
+                            "line": 417,
                             "message": "Could not find property \"enabled\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 32,
+                            "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 318,
+                            "line": 418,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 57,
+                            "column": 60,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 321,
+                            "line": 421,
                             "message": "Could not find property \"width\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 30,
+                            "column": 34,
                             "durationMicroseconds": 0,
                             "functionName": "enabled",
-                            "line": 322,
+                            "line": 422,
                             "message": "Could not find property \"enabled\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 32,
+                            "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 323,
+                            "line": 423,
                             "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 327,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 56,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 329,
-                            "message": "Could not find property \"width\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 30,
-                            "durationMicroseconds": 0,
-                            "functionName": "enabled",
-                            "line": 330,
-                            "message": "Could not find property \"enabled\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 331,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 56,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 334,
-                            "message": "Could not find property \"width\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 30,
-                            "durationMicroseconds": 0,
-                            "functionName": "enabled",
-                            "line": 335,
-                            "message": "Could not find property \"enabled\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 336,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 341,
-                            "message": "Could not find property \"width\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 0,
-                            "functionName": "enabled",
-                            "line": 343,
-                            "message": "Could not find property \"enabled\"."
                         },
                         {
                             "codegenResult": 2,
                             "column": 28,
                             "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 428,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 430,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 344,
+                            "line": 431,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 435,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 440,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 443,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 444,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 456,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 459,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 460,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
@@ -698,7 +858,7 @@
                             "column": 12,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 353,
+                            "line": 503,
                             "message": "Cannot access value for name selectedLineIndex"
                         },
                         {
@@ -706,7 +866,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 355,
+                            "line": 505,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
                         },
                         {
@@ -714,7 +874,7 @@
                             "column": 71,
                             "durationMicroseconds": 0,
                             "functionName": "type",
-                            "line": 356,
+                            "line": 506,
                             "message": ""
                         },
                         {
@@ -722,7 +882,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 359,
+                            "line": 509,
                             "message": ""
                         },
                         {
@@ -730,7 +890,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 360,
+                            "line": 510,
                             "message": "Cannot access value for name selectedLineIndex"
                         },
                         {
@@ -738,7 +898,15 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 361,
+                            "line": 511,
+                            "message": "Cannot access value for name selectedLineIndex"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 515,
                             "message": "Cannot access value for name selectedLineIndex"
                         },
                         {
@@ -746,31 +914,39 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 363,
+                            "line": 521,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 43,
                             "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 365,
-                            "message": "Could not find property \"width\"."
+                            "functionName": "currentLink",
+                            "line": 525,
+                            "message": "Cannot access value for name selectedLineIndex"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 28,
+                            "column": 40,
                             "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 366,
-                            "message": "Could not find signal \"clicked\"."
+                            "functionName": "isFatal",
+                            "line": 526,
+                            "message": "Cannot load property fromId from (component in C:/Users/himeno/Documents/greatestgame/Main.qml)::currentLink with type QVariant."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 47,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 528,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 382,
+                            "line": 529,
                             "message": "Could not find property \"width\"."
                         },
                         {
@@ -778,7 +954,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "enabled",
-                            "line": 383,
+                            "line": 531,
                             "message": "Could not find property \"enabled\"."
                         },
                         {
@@ -786,15 +962,79 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 384,
+                            "line": 533,
                             "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 37,
+                            "durationMicroseconds": 0,
+                            "functionName": "buttonText",
+                            "line": 530,
+                            "message": "Could not find property \"buttonText\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "currentLink",
+                            "line": 557,
+                            "message": "Cannot access value for name selectedLineIndex"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "isFatal",
+                            "line": 558,
+                            "message": "Cannot load property fromId from (component in C:/Users/himeno/Documents/greatestgame/Main.qml)::currentLink with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 560,
+                            "message": "Could not find property \"text\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 561,
+                            "message": "Could not find property \"width\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 563,
+                            "message": "Could not find property \"enabled\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 565,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 562,
+                            "message": "Cannot access value for name isFatal"
                         },
                         {
                             "codegenResult": 2,
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 402,
+                            "line": 587,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
@@ -802,7 +1042,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 392,
+                            "line": 577,
                             "message": "Could not find property \"right\"."
                         },
                         {
@@ -810,7 +1050,7 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 392,
+                            "line": 577,
                             "message": "Could not find property \"bottom\"."
                         },
                         {
@@ -818,8 +1058,112 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 397,
+                            "line": 582,
                             "message": "Cannot load property down from (component in C:/Users/himeno/Documents/greatestgame/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 624,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 624,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 625,
+                            "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 629,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 71,
+                            "durationMicroseconds": 0,
+                            "functionName": "type",
+                            "line": 634,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 638,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalCenter",
+                            "line": 647,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalCenter",
+                            "line": 654,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 92,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalCenter",
+                            "line": 657,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalCenter",
+                            "line": 661,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 665,
+                            "message": "Cannot access value for name currentTurn"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 668,
+                            "message": "Cannot access value for name globalInfectionRate"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 671,
+                            "message": "Cannot access value for name globalScore"
                         }
                     ],
                     "filePath": "C:/Users/himeno/Documents/greatestgame/Main.qml"

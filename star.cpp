@@ -18,9 +18,9 @@ void Star::nextTurn() {
         if (N < 0) N = 0;
 
         // 2. 逻辑斯谛动力学模型
-        double r = 0.25;       // 基础增殖率
+        double r = 0.05;       // 基础增殖率
         double K_max = 100.0;  // 疫情上限
-        double lambda = 0.05;  // 稳定度权重系数
+        double lambda = 0.06;  // 稳定度权重系数
 
         // 计算阻尼函数 phi (注意类型转换，避免整数除法丢失精度)
         double phi = std::exp(-lambda * static_cast<double>(P)) * static_cast<double>(Q);
@@ -53,9 +53,12 @@ void Star::addM(int bonus) {
 // 接收外部感染
 void Star::receiveInfection(int neighborK) {
     // 只有当邻居的疫情成规模（>15），且自己没病入膏肓时，才会被传染
-    if (neighborK > 15 && K < 100) {
-        double beta = 0.15; // 贸易线传染系数
+    if (neighborK > 25 && K < 100) {
+        double beta = 0.03; // 贸易线传染系数
         int incoming = std::round(neighborK * beta);
+
+        // 保证即使传得慢，只要触发了至少也会 +1，避免被 round(0) 吃掉
+        if (incoming < 1) incoming = 1;
 
         K += incoming;
         if (K > 100) K = 100;
