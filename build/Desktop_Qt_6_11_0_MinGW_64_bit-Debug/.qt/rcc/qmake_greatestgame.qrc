@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/greatestgame">
-    <file alias="qmldir">C:/Users/himeno/Documents/greatestgame/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/greatestgame/qmldir</file>
-  </qresource>
-</RCC>
-

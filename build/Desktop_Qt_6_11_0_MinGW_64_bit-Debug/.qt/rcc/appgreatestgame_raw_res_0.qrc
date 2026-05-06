@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/greatestgame/">
-    <file alias="yuzhou.png">C:/Users/himeno/Documents/greatestgame/yuzhou.png</file>
-  </qresource>
-</RCC>
-
