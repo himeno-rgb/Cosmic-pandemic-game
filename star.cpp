@@ -52,7 +52,7 @@ void Star::addM(int bonus) {
 
 // 接收外部感染
 void Star::receiveInfection(int neighborK) {
-    // 只有当邻居的疫情成规模（>15），且自己没病入膏肓时，才会被传染
+    // 只有当邻居的疫情成规模（>25），且自己没病入膏肓时，才会被传染
     if (neighborK > 25 && K < 100) {
         double beta = 0.03; // 贸易线传染系数
         int incoming = std::round(neighborK * beta);
